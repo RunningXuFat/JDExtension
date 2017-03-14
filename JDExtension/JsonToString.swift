@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JsonToString: NSObject {
+public class JsonToString: NSObject {
     class func transformDictionaryToString(dictionary: [String: Any]) -> String {
         var jsonData: Data!
         if dictionary.count != 0 {

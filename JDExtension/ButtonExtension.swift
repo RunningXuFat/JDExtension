@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
     class func button(withNormalImage normalImage: UIImage?, highlightedImage: UIImage?) -> UIButton {
         let button = UIButton.init()
         if let normal = normalImage {

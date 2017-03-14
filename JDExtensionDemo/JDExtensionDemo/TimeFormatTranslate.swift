@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TimeFormatTranslate: NSObject {
+public class TimeFormatTranslate: NSObject {
     class func getLocalDateFormTimeIntervalSince1970(withTimeInterval timeInterval: String) -> String {
         var date: NSDate?
         if timeInterval.characters.count > 9 {

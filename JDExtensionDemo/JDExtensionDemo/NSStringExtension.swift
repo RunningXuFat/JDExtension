@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension NSString {
+public extension NSString {
     func getHeight(withContainerWidth containerWidth: CGFloat) -> CGFloat {
         let stringRect = self.boundingRect(with: CGSize.init(width: containerWidth, height: 10000), options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 11)], context: nil)
         
