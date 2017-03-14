@@ -14,13 +14,14 @@
 		D24A6C951E77B69B00D7161B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A6C931E77B69B00D7161B /* LaunchScreen.storyboard */; };
 		D24A6CA01E77B69B00D7161B /* JDExtensionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6C9F1E77B69B00D7161B /* JDExtensionDemoTests.swift */; };
 		D24A6CAB1E77B69B00D7161B /* JDExtensionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CAA1E77B69B00D7161B /* JDExtensionDemoUITests.swift */; };
-		D24A6CBB1E77BCC900D7161B /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CBA1E77BCC900D7161B /* ButtonExtension.swift */; };
-		D24A6CBD1E77BD2600D7161B /* NSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CBC1E77BD2600D7161B /* NSStringExtension.swift */; };
-		D24A6CBF1E77BD4600D7161B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CBE1E77BD4600D7161B /* StringExtension.swift */; };
-		D24A6CC31E77BD7100D7161B /* NSString+EncodeURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CC21E77BD7100D7161B /* NSString+EncodeURL.m */; };
-		D24A6CC51E77BDEB00D7161B /* JsonToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CC41E77BDEB00D7161B /* JsonToString.swift */; };
-		D24A6CC71E77BE0C00D7161B /* TimeFormatTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CC61E77BE0C00D7161B /* TimeFormatTranslate.swift */; };
-		D24A6CC91E77BF4400D7161B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CC81E77BF4400D7161B /* UIColorExtension.swift */; };
+		D24A6CD61E77C56700D7161B /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CCD1E77C56700D7161B /* ButtonExtension.swift */; };
+		D24A6CD71E77C56700D7161B /* JDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CCE1E77C56700D7161B /* JDExtension.swift */; };
+		D24A6CD81E77C56700D7161B /* JsonToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CCF1E77C56700D7161B /* JsonToString.swift */; };
+		D24A6CD91E77C56700D7161B /* NSString+EncodeURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CD11E77C56700D7161B /* NSString+EncodeURL.m */; };
+		D24A6CDA1E77C56700D7161B /* NSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CD21E77C56700D7161B /* NSStringExtension.swift */; };
+		D24A6CDB1E77C56700D7161B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CD31E77C56700D7161B /* StringExtension.swift */; };
+		D24A6CDC1E77C56700D7161B /* TimeFormatTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CD41E77C56700D7161B /* TimeFormatTranslate.swift */; };
+		D24A6CDD1E77C56700D7161B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A6CD51E77C56700D7161B /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,15 +55,16 @@
 		D24A6CA61E77B69B00D7161B /* JDExtensionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDExtensionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24A6CAA1E77B69B00D7161B /* JDExtensionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDExtensionDemoUITests.swift; sourceTree = "<group>"; };
 		D24A6CAC1E77B69B00D7161B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D24A6CBA1E77BCC900D7161B /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
-		D24A6CBC1E77BD2600D7161B /* NSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtension.swift; sourceTree = "<group>"; };
-		D24A6CBE1E77BD4600D7161B /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		D24A6CC01E77BD7000D7161B /* JDExtensionDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JDExtensionDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		D24A6CC11E77BD7100D7161B /* NSString+EncodeURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EncodeURL.h"; sourceTree = "<group>"; };
-		D24A6CC21E77BD7100D7161B /* NSString+EncodeURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EncodeURL.m"; sourceTree = "<group>"; };
-		D24A6CC41E77BDEB00D7161B /* JsonToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonToString.swift; sourceTree = "<group>"; };
-		D24A6CC61E77BE0C00D7161B /* TimeFormatTranslate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeFormatTranslate.swift; sourceTree = "<group>"; };
-		D24A6CC81E77BF4400D7161B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		D24A6CC01E77BD7000D7161B /* JDExtensionDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JDExtensionDemo-Bridging-Header.h"; path = "JDExtensionDemo/JDExtensionDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D24A6CCD1E77C56700D7161B /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		D24A6CCE1E77C56700D7161B /* JDExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDExtension.swift; sourceTree = "<group>"; };
+		D24A6CCF1E77C56700D7161B /* JsonToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonToString.swift; sourceTree = "<group>"; };
+		D24A6CD01E77C56700D7161B /* NSString+EncodeURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EncodeURL.h"; sourceTree = "<group>"; };
+		D24A6CD11E77C56700D7161B /* NSString+EncodeURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EncodeURL.m"; sourceTree = "<group>"; };
+		D24A6CD21E77C56700D7161B /* NSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtension.swift; sourceTree = "<group>"; };
+		D24A6CD31E77C56700D7161B /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D24A6CD41E77C56700D7161B /* TimeFormatTranslate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeFormatTranslate.swift; sourceTree = "<group>"; };
+		D24A6CD51E77C56700D7161B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,19 +117,11 @@
 			children = (
 				D24A6C8A1E77B69B00D7161B /* AppDelegate.swift */,
 				D24A6C8C1E77B69B00D7161B /* ViewController.swift */,
-				D24A6CBA1E77BCC900D7161B /* ButtonExtension.swift */,
-				D24A6CBC1E77BD2600D7161B /* NSStringExtension.swift */,
-				D24A6CBE1E77BD4600D7161B /* StringExtension.swift */,
-				D24A6CC11E77BD7100D7161B /* NSString+EncodeURL.h */,
-				D24A6CC21E77BD7100D7161B /* NSString+EncodeURL.m */,
-				D24A6CC41E77BDEB00D7161B /* JsonToString.swift */,
-				D24A6CC61E77BE0C00D7161B /* TimeFormatTranslate.swift */,
-				D24A6CC81E77BF4400D7161B /* UIColorExtension.swift */,
+				D24A6CCC1E77C51400D7161B /* Extensions */,
 				D24A6C8E1E77B69B00D7161B /* Main.storyboard */,
 				D24A6C911E77B69B00D7161B /* Assets.xcassets */,
 				D24A6C931E77B69B00D7161B /* LaunchScreen.storyboard */,
 				D24A6C961E77B69B00D7161B /* Info.plist */,
-				D24A6CC01E77BD7000D7161B /* JDExtensionDemo-Bridging-Header.h */,
 			);
 			path = JDExtensionDemo;
 			sourceTree = "<group>";
@@ -148,6 +142,24 @@
 				D24A6CAC1E77B69B00D7161B /* Info.plist */,
 			);
 			path = JDExtensionDemoUITests;
+			sourceTree = "<group>";
+		};
+		D24A6CCC1E77C51400D7161B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D24A6CCD1E77C56700D7161B /* ButtonExtension.swift */,
+				D24A6CCE1E77C56700D7161B /* JDExtension.swift */,
+				D24A6CCF1E77C56700D7161B /* JsonToString.swift */,
+				D24A6CD01E77C56700D7161B /* NSString+EncodeURL.h */,
+				D24A6CD11E77C56700D7161B /* NSString+EncodeURL.m */,
+				D24A6CD21E77C56700D7161B /* NSStringExtension.swift */,
+				D24A6CD31E77C56700D7161B /* StringExtension.swift */,
+				D24A6CD41E77C56700D7161B /* TimeFormatTranslate.swift */,
+				D24A6CD51E77C56700D7161B /* UIColorExtension.swift */,
+				D24A6CC01E77BD7000D7161B /* JDExtensionDemo-Bridging-Header.h */,
+			);
+			name = Extensions;
+			path = ../../JDExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,15 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24A6CC51E77BDEB00D7161B /* JsonToString.swift in Sources */,
-				D24A6CC31E77BD7100D7161B /* NSString+EncodeURL.m in Sources */,
-				D24A6CBB1E77BCC900D7161B /* ButtonExtension.swift in Sources */,
-				D24A6CBF1E77BD4600D7161B /* StringExtension.swift in Sources */,
+				D24A6CD81E77C56700D7161B /* JsonToString.swift in Sources */,
+				D24A6CD61E77C56700D7161B /* ButtonExtension.swift in Sources */,
 				D24A6C8D1E77B69B00D7161B /* ViewController.swift in Sources */,
-				D24A6CBD1E77BD2600D7161B /* NSStringExtension.swift in Sources */,
-				D24A6CC91E77BF4400D7161B /* UIColorExtension.swift in Sources */,
 				D24A6C8B1E77B69B00D7161B /* AppDelegate.swift in Sources */,
-				D24A6CC71E77BE0C00D7161B /* TimeFormatTranslate.swift in Sources */,
+				D24A6CDB1E77C56700D7161B /* StringExtension.swift in Sources */,
+				D24A6CD71E77C56700D7161B /* JDExtension.swift in Sources */,
+				D24A6CD91E77C56700D7161B /* NSString+EncodeURL.m in Sources */,
+				D24A6CDD1E77C56700D7161B /* UIColorExtension.swift in Sources */,
+				D24A6CDA1E77C56700D7161B /* NSStringExtension.swift in Sources */,
+				D24A6CDC1E77C56700D7161B /* TimeFormatTranslate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
